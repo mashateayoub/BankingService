@@ -58,7 +58,6 @@ public class Tests {
         int numberOfThreads = 12;
 //        lunching a pool of 12 threads
         ExecutorService executor = Executors.newFixedThreadPool(numberOfThreads);
-//        ensuring the 12 threads are al done despite failed withdrawals
         CountDownLatch latch = new CountDownLatch(numberOfThreads);
 
         for (int i = 0; i < numberOfThreads; i++) {
@@ -132,7 +131,7 @@ public class Tests {
         int numberOfThreads = 12;
 //        lunching a pool of 12 threads
         ExecutorService executor = Executors.newFixedThreadPool(numberOfThreads);
-//        ensuring the 12 threads are al done despite failed withdrawals
+//        ensuring the 12 threads are all done despite failed withdrawals
         CountDownLatch latch = new CountDownLatch(numberOfThreads);
 
         AtomicInteger successfulWithdrawals = new AtomicInteger(0);
