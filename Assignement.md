@@ -41,13 +41,17 @@ Date       || Amount || Balance
 
 ## Technical Requirements
 
-- Handle Exceptions whenever needed (invalid inputs,...)
-- Think of performance issues and have your code be efficient (when needed).
-- Do not hesitate to test your code well.
-- Do not use repositories. Use ArrayLists and update them (ignore the case that they are destroyed at the end of the program, this is just for this test).
-- We're using ints for the money amounts to keep the auxiliaries as simple as possible. In a real system, we would always use a datatype with guaranteed arbitrary precision.
-- Don't worry about spacing and indentation in the statement output. (You could instruct your acceptance test to ignore whitespace if you wanted to).
-- When in doubt, go for the simplest solution!
-- If you ever need help or have any questions, please do not hesitate to reach out to us.
+- [X] Handle Exceptions whenever needed (invalid inputs,...)
+- [X] Think of performance issues and have your code be efficient (when needed).
+- [X] Do not hesitate to test your code well.
+- [X] Do not use repositories. Use ArrayLists and update them (ignore the case that they are destroyed at the end of the program, this is just for this test).
+- [X] We're using ints for the money amounts to keep the auxiliaries as simple as possible. In a real system, we would always use a datatype with guaranteed arbitrary precision.
+- [X] Don't worry about spacing and indentation in the statement output. (You could instruct your acceptance test to ignore whitespace if you wanted to).
+
+
+
+When in doubt, go for the simplest solution!
+
+If you ever need help or have any questions, please do not hesitate to reach out to us.
 
 **Good Luck**
